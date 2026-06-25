@@ -2,7 +2,7 @@ FROm node:20-alpine as builder
 
 workdir /app
 
-copy package*.json
+copy package*.json .
 
 run npm ci
 
